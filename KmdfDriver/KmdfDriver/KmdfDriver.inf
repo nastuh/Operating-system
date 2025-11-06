@@ -1,0 +1,29 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+DriverVer=01/01/2024,1.0.0.0
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[DefaultInstall]
+CopyFiles=DriverCopyFiles
+
+[DefaultInstall.Services]
+AddService=KmdfDriver,,ServiceInstallSection
+
+[DriverCopyFiles]
+KmdfDriver.sys
+
+[ServiceInstallSection]
+DisplayName    = %ServiceName%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\KmdfDriver.sys
+
+[Strings]
+ManufacturerName="Test"
+ServiceName="KmdfDriver"
