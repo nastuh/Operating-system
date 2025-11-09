@@ -1,0 +1,19 @@
+﻿  StringLength.cpp
+C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.cpp(7,10): warning C4273: max_length: несовместимое связывание dll
+  (компиляция исходного файла "/StringLength.cpp")
+      C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.h(14,23):
+      см. предыдущее определение "max_length"
+  
+C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.cpp(8,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/StringLength.cpp")
+  
+C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.cpp(9,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/StringLength.cpp")
+  
+C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.cpp(10,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/StringLength.cpp")
+  
+C:\Users\User\Desktop\С++\Dll3\Dll3\StringLength.cpp(11,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/StringLength.cpp")
+  
+  Dll3.vcxproj -> C:\Users\User\Desktop\С++\Dll3\x64\Debug\Dll3.dll
