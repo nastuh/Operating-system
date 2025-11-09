@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Массив.cpp
+C:\Users\User\Desktop\С++\Dll4\Dll4\Массив.cpp(10,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "/Массив.cpp")
+  
+  Создание кода...
+     Создается библиотека C:\Users\User\Desktop\С++\Dll4\x64\Debug\Dll4.lib и объект C:\Users\User\Desktop\С++\Dll4\x64\Debug\Dll4.exp
+  Dll4.vcxproj -> C:\Users\User\Desktop\С++\Dll4\x64\Debug\Dll4.dll
