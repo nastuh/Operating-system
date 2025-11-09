@@ -1,0 +1,31 @@
+﻿  pch.cpp
+  Calculator.cpp
+C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(7,13): warning C4273: add: несовместимое связывание dll
+  (компиляция исходного файла "/Calculator.cpp")
+      C:\Users\User\Desktop\С++\DLL\DLL\Calculator.h(13,24):
+      см. предыдущее определение "add"
+  
+C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(11,13): warning C4273: subtract: несовместимое связывание dll
+  (компиляция исходного файла "/Calculator.cpp")
+      C:\Users\User\Desktop\С++\DLL\DLL\Calculator.h(14,24):
+      см. предыдущее определение "subtract"
+  
+C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(15,13): warning C4273: multiply: несовместимое связывание dll
+  (компиляция исходного файла "/Calculator.cpp")
+      C:\Users\User\Desktop\С++\DLL\DLL\Calculator.h(15,24):
+      см. предыдущее определение "multiply"
+  
+C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(19,13): warning C4273: divide: несовместимое связывание dll
+  (компиляция исходного файла "/Calculator.cpp")
+      C:\Users\User\Desktop\С++\DLL\DLL\Calculator.h(16,24):
+      см. предыдущее определение "divide"
+  
+C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(21,13): warning C4297: divide: ожидается, что функция не будет выдавать исключения, но она это делает
+  (компиляция исходного файла "/Calculator.cpp")
+      C:\Users\User\Desktop\С++\DLL\DLL\Calculator.cpp(21,13):
+      Функция типа extern "C", указан параметр /EHc
+  
+  dllmain.cpp
+  Создание кода...
+     Создается библиотека C:\Users\User\Desktop\С++\DLL\x64\Debug\DLL.lib и объект C:\Users\User\Desktop\С++\DLL\x64\Debug\DLL.exp
+  DLL.vcxproj -> C:\Users\User\Desktop\С++\DLL\x64\Debug\DLL.dll
